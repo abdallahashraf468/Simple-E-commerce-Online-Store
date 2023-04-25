@@ -1,0 +1,47 @@
+body{
+  background: #85CDFD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6096B4, #6096B4);  
+  background: linear-gradient(to right, #BDCDD6, #BDCDD6); 
+}
+
+                                             /* Navbar */
+.nav-item {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 4%;
+    width: 80%;
+  }
+
+  to {
+    margin-left: 8%;
+    width: 100%;
+  }
+}
+.nav-item{
+  box-shadow: 2px 3px 1px 1px rgba(0, 132, 255, 0.836);
+  ;
+}
+.nav-item:hover{
+  background-color: #1e7cf7;
+  color: white;  
+}
+.navbar-brand{
+  padding: 15px;
+  box-shadow: 2px 3px 1px 1px rgba(0, 132, 255, 0.836);
+}
+.hero{
+  margin-top: 20px;
+}
+.container{
+  margin-top: 20px;
+}
+.display-6 {
+  box-shadow: 0px 0px 7px 7px rgba(33, 155, 255, 0.2);
+  padding: 5px;
+
+}

@@ -1,0 +1,38 @@
+
+.coontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.coolumn{
+    background-color: white;
+    border-radius: 30px;
+    width: 590px;
+    margin: 25px auto;
+    padding: 25px;
+    
+}
+.hp h2{
+font-weight: bold;
+font-style:italic;
+color: aliceblue;
+width: 177px;
+}
+.hp h2:hover{
+    color: dodgerblue;
+    background-color: white;
+    border-style: dashed;
+    padding: 4px;
+    cursor: pointer;
+ 
+}
+.hp p{
+    color: white;
+    margin-top: 20px;
+    font-size: 22px;
+    color: dodgerblue;
+}
+.cou label{
+margin-right: 15px;
+}
